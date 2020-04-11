@@ -5,11 +5,12 @@ end
 def monopoly_with_second_tier
 base = base_hash
 base[:railroads] = {pieces: 4, rent_in_dollars: {}, names: {}}
+base
 end
 
 def monopoly_with_third_tier
 base = monopoly_with_second_tier
-
+base[:railroads][:rent_in_dollars] = {one_piece_owned: 25, two_pieces_owned: 50,
 end
 
 def monopoly_with_fourth_tier
