@@ -1,10 +1,9 @@
 def base_hash
 base = {:railroads => {}}
-base
+return base
 end
 
 def monopoly_with_second_tier
-  base_hash
 base[:railroads] = {pieces: 4, rent_in_dollars: {}, names: {}}
 end
 
