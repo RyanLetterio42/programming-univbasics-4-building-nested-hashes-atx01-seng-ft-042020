@@ -21,4 +21,5 @@ base[:railroads][:names][:reading_railroad] = {mortgage_value: 100}
 base[:railroads][:names][:pennsylvania_railroad] = {mortgage_value: 200}
 base[:railroads][:names][:b_and_o_railroad] = {mortgage_value: 400}
 base[:railroads][:names][:shortline_railroad] = {mortgage_value: 800}
+base
 end
